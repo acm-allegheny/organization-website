@@ -1,2 +1,5 @@
-# organization-website
-The repository hosts the "organization-website" template from the Allegheny College ACM Student Chapter's "Personal Website" workshop series.
+# Organization Website Template
+
+This repository hosts the "organization-website" template from the Allegheny College ACM Student Chapter's "Personal Website" workshop series.
+
+This template and workshop were created by [Alish Chhetri](https://github.com/AlishChhetri).
