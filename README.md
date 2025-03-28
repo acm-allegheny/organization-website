@@ -10,19 +10,18 @@ This template provides a clean, responsive organization website with search func
 
 ## Configuration Files
 
-### Sitemap and Search Configuration
+### Sitemap Configuration
 
-The website uses two JSON files for search functionality and site navigation:
+The website uses a JSON file for search functionality and site navigation:
 
 - `assets/js/sitemap.json`: Defines the site structure for navigation and search
-- `assets/js/search.json`: Similar to sitemap, used for search functionality
 
-> **Important:** Both files need to be updated when adding new pages. Make sure the URL paths match between both files.
+> **Important:** This file needs to be updated when adding new pages to ensure proper search functionality.
 
 #### How to add a new page:
 
 1. Create your new HTML page in the appropriate directory (e.g., pages/blog/new_post.html)
-2. Add the page to both JSON files with the following format:
+2. Add the page to the sitemap.json file with the following format:
 
 ```json
 {
@@ -31,21 +30,6 @@ The website uses two JSON files for search functionality and site navigation:
   "title": "Your Page Title"
 }
 ```
-
-The "badge" determines the category label in search results:
-- "home" - Homepage
-- "blog" - Blog posts
-- "event" - Events
-- "about" - About pages
-- "page" - Generic pages
-
-#### Customizing the baseUrl
-
-If you're deploying to a custom domain or GitHub Pages:
-
-1. In both `sitemap.json` and `search.json`, update the `baseUrl` property:
-   - For GitHub Pages: `"baseUrl": "https://your-username.github.io/repository-name"`
-   - For custom domain: `"baseUrl": "https://your-domain.com"`
 
 ### Calendar Events
 

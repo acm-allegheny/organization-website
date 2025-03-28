@@ -8,12 +8,12 @@
     },
     {
       "url": "/pages/about.html",
-      "badge": "about",
-      "title": "About Me"
+      "badge": "page",
+      "title": "About"
     },
     {
       "url": "/pages/blog.html",
-      "badge": "blog",
+      "badge": "page",
       "title": "Blog"
     },
     {
