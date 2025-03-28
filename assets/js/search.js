@@ -123,16 +123,18 @@ document.addEventListener('DOMContentLoaded', function() {
         // Check against common patterns first
         if (url.includes('/blog/')) {
             type = 'blog';
-        } else if (url.includes('/projects/')) {
-            type = 'project';
+        } else if (url.includes('/events/')) {
+            type = 'event';
         } else if (url.includes('/about.html')) {
             type = 'about';
+        } else if (url.includes('/events.html')) {
+            type = 'event';
+        } else if (url.includes('/blog.html')) {
+            type = 'blog';
         } else if (url.includes('/index.html') || url.endsWith('/')) {
             type = 'home';
-        } else if (url.includes('/games/')) {
-            type = 'game';
         }
-        
+
         return {
             title,
             content,
